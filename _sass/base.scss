@@ -16,8 +16,6 @@ html {
 margin:0px;
 padding:0px;
 color: white;
-height: 100%;
-width: 100%;
 margin: 15px;
 background : #0D0D0D;
 background-image :
@@ -25,8 +23,7 @@ background-image :
   linear-gradient(90deg, #262626 1px, transparent 0);
 background-size: 30px 30px;
   background-attachment: fixed;   
-    height: 100vh;
-    width: 100vw;
+
 
 }
 
@@ -5165,7 +5162,7 @@ footer {
         position: 0;
     left:auto;
     bottom:auto;
-    width:auto;
+   
     }
 }
 
@@ -5174,34 +5171,7 @@ footer {
     word-wrap:break-word;
   }
 
-  header {
-    padding:20px 20px;
-    margin: 0;
 
-    h1 {
-      font-size: 32px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
-    }
-
-    p { display: none;}
-  }
-
-  #banner {
-    top: 80px;
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position:fixed;
-    left:20px;
-
-      }
-  }
 
   main {
     border:1px solid #e5e5e5;
@@ -5240,11 +5210,7 @@ footer {
     max-width: 100%;
   }
 
-  #banner { display: none;}
-  header ul {
-    display:none;
-  }
-}
+
 
 @media print {
   body {
@@ -5262,7 +5228,7 @@ footer {
     position: 0;
     left:auto;
     bottom:auto;
-    width:auto;
+
   }
 }
 
@@ -5273,11 +5239,10 @@ footer {
 
   footer {
     text-align: center;
-    margin: 20px auto;
-    position: 0;
+      position: 0;
     left:auto;
     bottom:auto;
-    width:auto;
+    
   }
 }
 
