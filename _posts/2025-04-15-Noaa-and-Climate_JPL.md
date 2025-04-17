@@ -32,7 +32,9 @@ background-size: 100% auto;
   display: flex;
   flex-flow: row wrap; 
   gap: 2px;
-  height: auto;
+  height: 80vh;
+  width: 100%;
+  margin: 10px;
 }
 
 .admin object { height : 400px;
