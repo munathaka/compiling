@@ -5137,20 +5137,6 @@ footer {
     }
   }
 
-  #banner {
-    width: 100%;
-
-    .downloads {
-        margin-right: 60px;
-      }
-
-    .fork {
-    }
-
-    #logo {
-      margin-right: 15px;
-    }
-  }
 
   main {
     border:1px solid #e5e5e5;
@@ -5210,7 +5196,7 @@ footer {
     max-width: 100%;
   }
 
-
+}
 
 @media print {
   body {
